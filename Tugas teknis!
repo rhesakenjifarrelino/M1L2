@@ -1,0 +1,10 @@
+import random
+simpan = ""
+char = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+while True:
+    long = int(input("Masukan panjang password yang diinginkan: "))
+    for i in range(long):
+        simpan += (random.choice(char))
+
+    print(simpan)        
+        
